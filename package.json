@@ -1,0 +1,14 @@
+{
+  "name": "chain-reaction-server",
+  "version": "1.0.0",
+  "description": "Multiplayer Chain Reaction game server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "uuid": "^9.0.0"
+  }
+}
